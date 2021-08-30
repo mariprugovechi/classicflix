@@ -97,7 +97,7 @@ body header .secondary_menu .user {
 }
 
 body main .main-tvshow {
-    background: linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)100%), url('/img/filmedestaque.jpg');
+    background: linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)100%), url('../img/filmedestaque.jpg');
     height: 590px;
     background-size: cover;
     background-position: center;
