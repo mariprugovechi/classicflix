@@ -1,0 +1,74 @@
+/* Featured Movie Buttons */
+@media screen and (max-width: 800px) {
+    body main .main-tvshow .buttons button {
+        margin: 10px 0;
+    }
+}
+
+/* Top Tv Shows*/
+@media screen and (max-width: 1150px) {
+    body .movies-carousel .item.top h4 {
+        font-size: 150px;
+        margin-left: 75px;
+    }   
+}
+@media screen and (max-width: 850px) {
+    body .movies-carousel .item.top h4 {
+        font-size: 100px;
+        margin-left: 75px;       
+        margin-top: -75px;
+    }   
+}
+@media screen and (max-width: 599px) {
+    body .movies-carousel .item.top h4 {
+        font-size: 150px;
+        margin-left: 145px;       
+        margin-top: -150px;
+    }   
+}
+@media screen and (max-width: 450px) {
+    body .movies-carousel .item.top h4 {
+        font-size: 125px;
+        margin-left: 80px;       
+        margin-top: -100px;
+    }   
+}
+
+/* Mobile menu */
+@media screen and (min-width: 800px) {
+    body header .container .dropdown_menu {
+        display: none;
+      }
+}
+@media screen and (max-width: 799px) {
+    body header .container .main_menu {
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    body header .secondary_menu .search, .active-search, #search {
+        display: none !important;
+    }
+}
+.dropdown-content {
+    display: none;
+    padding-left: 15px;
+    position: absolute;
+    min-width: 100px;
+    z-index: 1;
+    background-color:#141414c5;
+    font-size: 13px;
+}
+.dropdown-content a {
+    color: var(--branco);
+    padding: 12px 0;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+      color: var(--cinza);
+}
+.show {
+    display:block;
+}
+

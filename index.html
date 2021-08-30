@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <!--own css-->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+
+    <title>Classicflix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">CLASSICFLIX</h2>
+            <nav class="main_menu">
+                <a href="#">Home</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Minha lista</a>
+            </nav>
+            <div class="dropdown_menu">
+                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Minha lista</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="secondary_menu">
+                <button type="submit" class="search" onclick="displaySearch()"><i class="fas fa-search"></i></button>
+                <input type="text" style="display:none" id="search" placeholder="Título, diretor..." name="search">
+                <a class="user" href="#"><i class="fas fa-user"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-tvshow">
+            <div class="container">
+                <h2 class="title">Bonequinha de luxo</h2>
+                <p class="description">O escritor iniciante Paul Varjak se muda para um prédio de apartamentos de Nova York e fica intrigado com sua linda e peculiar vizinha. O estilo de vida de Holly confunde e fascina Paul; em público ela esvoaça através das festas com um ar sofisticado e sexy, mas quando eles estão sozinhos ela se transforma em um doce pacote das neuroses.</p>
+                <div class="buttons">
+                    <button role="button" class="watch-button">
+                        <i class="fas fa-play"></i>
+                        Assistir
+                    </button>
+                    <button role="button" class="info-button">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="movies-carousel">
+        <h3 class="trending">Em alta</h3>
+        <div class="owl-carousel loop owl-theme">
+            <div class="item">
+                <img class="movie-box" src="img/min1.jpg" alt=""> 
+            </div>
+            <div class="item">
+                <img class="movie-box" src="img/min2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="movie-box" src="img/min3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="movie-box" src="img/min4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="movie-box" src="img/min5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="movie-box" src="img/min6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="movie-box" src="img/min7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="movie-box" src="img/min8.jpg" alt="">
+            </div>
+        </div>
+        <div class="movies-carousel">
+            <h3 class="subtitles">Assistir novamente</h3>
+            <div class="owl-carousel loop owl-theme">
+                <div class="item">
+                    <img class="movie-box" src="img/min9.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min10.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min11.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min12.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min13.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min14.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min15.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min16.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="movies-carousel">
+            <h3 class="subtitles">Top 9 séries</h3>
+            <div class="owl-carousel loop-top owl-theme">
+                <div class="item top">
+                    <img class="movie-box" src="img/min25.jpg" alt="">
+                    <h4>1</h4>       
+                </div>
+                <div class="item top">
+                    <img class="movie-box" src="img/min26.jpg" alt="">
+                    <h4>2</h4>    
+                </div>
+                <div class="item top">
+                    <img class="movie-box" src="img/min27.jpg" alt="">
+                    <h4>3</h4>    
+                </div>
+                <div class="item top">
+                    <img class="movie-box" src="img/min28.jpg" alt="">
+                    <h4>4</h4>    
+                </div>
+                <div class="item top">
+                    <img class="movie-box" src="img/min29.jpg" alt="">
+                    <h4>5</h4>    
+                </div>
+                <div class="item top">
+                    <img class="movie-box" src="img/min30.jpg" alt="">
+                    <h4>6</h4>    
+                </div>
+                <div class="item top">
+                    <img class="movie-box" src="img/min31.jpg" alt="">
+                    <h4>7</h4>    
+                </div>
+                <div class="item top">
+                    <img class="movie-box" src="img/min32.jpg" alt="">
+                    <h4>8</h4>
+                </div>
+                <div class="item top">
+                    <img class="movie-box" src="img/min33.jpg" alt="">
+                    <h4>9</h4>
+                </div>
+            </div>        
+        </div>
+        <div class="movies-carousel">
+            <h3 class="subtitles">Minha lista</h3>
+            <div class="owl-carousel loop owl-theme">
+                <div class="item">
+                    <img class="movie-box" src="img/min17.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min18.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min19.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min20.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min21.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min22.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min23.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="movie-box" src="img/min24.jpg" alt="">
+                </div>
+            </div>        
+        </div>
+    </div>
+    <footer>
+        <div class="col-1">
+            <ul>
+                <li>
+                    <a href="#">Idioma e legendas</a>
+                </li>
+                <li>
+                    <a href="#">Imprensa</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>   
+        </div>
+        <div class="col-2">
+            <ul>
+                <li>
+                    <a href="#">Centro de ajuda</a>
+                </li>
+                <li>
+                    <a href="#">Carreiras</a>
+                </li>
+                <li>
+                    <a href="#">Avisos legais</a>
+                </li>
+            </ul>    
+        </div>
+        <div class="col-3">
+            <ul>
+                <li>
+                    <a href="#">Termos de uso</a>
+                </li>
+                <li>
+                    <a href="#">Privacidade</a>
+                </li>
+                <li>
+                    <a href="#">Cookies</a>
+                </li>
+            </ul>    
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/88e5909fa0.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
